@@ -12,7 +12,7 @@ workflows:
           filters:
             branches:
               only:
-                - main
+                - master
           label: version-<<pipeline.number>>
           requires:
             - node/test
